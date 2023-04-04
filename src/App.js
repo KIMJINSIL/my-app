@@ -13,6 +13,10 @@ function App() {
           <label for="user_name">이름이 뭐에요?</label>  
           <input type="text" id="user_name"></input>
         </div>
+        <div>
+          <label for="user_birth">생일이 언제에요?</label>  
+          <input type="date" id="user_birth"></input>
+        </div>
       </form>
     </div>
   );
